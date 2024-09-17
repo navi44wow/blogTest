@@ -1,12 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog test</title>
+    <title>Услуги за Видео и Снимки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        #portfolio img, #portfolio video {
+            width: 300px;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Blog test!</h1>
-    <p>Stay tuned for new posts test.</p>
+
+    <!-- Основно меню -->
+    <nav>
+        <a href="#home">Начало</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+
+    <!-- Секция Начало -->
+    <section id="home">
+        <h1>Добре дошли на нашия сайт за Видео и Снимки!</h1>
+        <p>Предлагаме професионални услуги за заснемане, снимки и режисура. Разгледайте нашето портфолио и научете повече за нашите услуги.</p>
+    </section>
+
+    <!-- Секция Портфолио -->
+    <section id="portfolio">
+        <h2>Примерни Проекти</h2>
+        <img src="example-photo1.jpg" alt="Примерна снимка 1">
+        <img src="example-photo2.jpg" alt="Примерна снимка 2">
+        <video controls>
+            <source src="example-video.mp4" type="video/mp4">
+            Вашият браузър не поддържа видео.
+        </video>
+    </section>
+
+    <!-- Секция Услуги -->
+    <section id="services">
+        <h2>Нашите Услуги</h2>
+        <ul>
+            <li>Заснемане на видео – 500 лв за проект.</li>
+            <li>Професионална фотография – 300 лв за проект.</li>
+            <li>Режисура и постпродукция – по договаряне.</li>
+        </ul>
+    </section>
+
+    <!-- Секция Контакти -->
+    <section id="contact">
+        <h2>Свържете се с нас</h2>
+        <p>Телефон: 0888 123 456</p>
+        <p>Имейл: example@mail.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Услуги за Видео и Снимки</p>
+    </footer>
+
 </body>
 </html>
